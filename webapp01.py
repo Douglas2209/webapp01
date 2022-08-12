@@ -25,6 +25,7 @@ choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
 if choice == "Catalogo_de_Vendas":       
+    st.image(image01, width=800, caption='Rótulo da Imagem 01')
     st.subheader("Texto formatado em colunas")
     st.write("Veja a seguir uma opção de formatação em colunas")    
     cols01 = st.columns(2)    
