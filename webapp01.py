@@ -11,7 +11,7 @@ st.title("ValverdeSubli")
 st.header("Catalogo de Produto")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Sub Cabeçalho")
+st.subheader("Caneca Tema (dia dos Pais)")
 
 menu = ["Catalogo_de_Vendas",
         "Endereço_Comercial",
