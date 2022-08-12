@@ -20,7 +20,7 @@ choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
 if choice == "Catalogo_de_Vendas":       
-    st.image(image01, width=400, caption='Rótulo da Imagem 01')
+    st.image(image01, width=400, caption='Imagem ilustrativa do produto')
     st.subheader("ValverdeSubli")
     st.write("Catalogo de vendas")    
     cols01 = st.columns(2)    
