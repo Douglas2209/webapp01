@@ -30,8 +30,8 @@ with col1:
 with col2:
     st.image(image01, width=400, caption='Imagem ilustrativa do produto')
     Texto01 = '<p style="font-family:tahoma; color:red; font-size: 25px;">R$ 29,99 acima de 10 unidades 27,99'
-if choice == "Catalogo_de_Vendas":       
-    st.image(image01, width=400, caption='Imagem ilustrativa do produto')
+        
+if choice == "Catalogo_de_Vendas":      
     Texto01 = '<p style="font-family:tahoma; color:red; font-size: 25px;">R$ 29,99 acima de 10 unidades 27,99'
     st.markdown(Texto01, unsafe_allow_html=True)
     st.write("Catalogo de vendas")    
