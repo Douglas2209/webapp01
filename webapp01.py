@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image01 = Image.open('desenvolvimento.jpg')
+image01 = Image.open('caneca.jpg')
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MEU 1º WEB APP STREAMLIT")
 
@@ -24,13 +24,13 @@ menu = ["Catalogo_de_Vendas",
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
-if choice == "Texto_Colunas":       
+if choice == "Catalogo_de_Vendas":       
     st.subheader("Texto formatado em colunas")
     st.write("Veja a seguir uma opção de formatação em colunas")    
     cols01 = st.columns(2)    
     cols01[0].write('Texto da Coluna 01')
     cols01[1].write('Texto da Coluna 02')
-elif choice == "Texto_Markdown":
+elif choice == "Endereço_Comercial":
     st.subheader("Texto Markdown")
     st.write("Veja a seguir opção de formatação de texto Markdown")
     st.markdown(
