@@ -26,8 +26,7 @@ if choice == "Catalogo_de_Vendas":
     cols01 = st.columns(2)    
     cols01[0].write('Texto da Coluna 01')
     cols01[1].write('Texto da Coluna 02')
-    cols01[2].write('Texto da Coluna 03')
-    cols01[3].write('Texto da Coluna 04')
+        
 elif choice == "Endereço_Comercial":
     st.subheader("Texto Markdown")
     st.write("Veja a seguir opção de formatação de texto Markdown")
