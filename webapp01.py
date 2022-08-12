@@ -24,9 +24,22 @@ if choice == "Catalogo_de_Vendas":
     Texto01 = '<p style="font-family:tahoma; color:red; font-size: 25px;">R$ 29,99 acima de 10 unidades 27,99'
     st.markdown(Texto01, unsafe_allow_html=True)
     st.write("Catalogo de vendas")    
-    cols01 = st.columns(2)    
-    cols01[0].write('Texto da Coluna 01')
-    cols01[1].write('Texto da Coluna 02')
+    col1, col2 = st.columns((1,1))
+with col1:
+    st.info(
+       """
+    ### ***Atenção, principiante!***
+    Para você que é leigo e está começando agora a programar, este material introdutório, uma espécie de **guia rápido**, está estruturado **com um passo-a-passo a ser seguido** com se fosse uma "receita de bolo". Então, por favor, siga um passo de cada vez e tome cuidado para o bolo não desandar!
+    """    
+    )
+with col2:
+    st.info(
+    """
+    ### ***Aprendizado colaborativo***
+    Projetado para fornecer aos usuários um espaço sobre algumas Linguagens de Programação. O objetivo não é substituir o conteúdo institucional disponível para aulas, mas servir de suporte complementar ao aprendizado compartilhado. Espero que você faça bom uso!
+    """
+    )
+
         
 elif choice == "Endereço_Comercial":
     st.subheader("Texto Markdown")
