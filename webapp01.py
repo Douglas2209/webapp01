@@ -21,7 +21,7 @@ st.sidebar.write("Texto Side Bar")
     
 if choice == "Catalogo_de_Vendas":       
     st.image(image01, width=400, caption='Imagem ilustrativa do produto')
-    st.subheader("ValverdeSubli")
+    st.subheader("R$ 29,99 acima de 10 unidades 27,99")
     st.write("Catalogo de vendas")    
     cols01 = st.columns(2)    
     cols01[0].write('Texto da Coluna 01')
