@@ -5,18 +5,13 @@ from PIL import Image
 
 image01 = Image.open('caneca.jpg')
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("MEU 1º WEB APP STREAMLIT")
+st.title("ValverdeSubli")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Cabeçalho")
+st.header("Catalogo de Produto")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
 st.subheader("Sub Cabeçalho")
-
-# Use st.write("") para adicionar um texto ao seu Web app
-st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
-
-st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
 menu = ["Catalogo_de_Vendas",
         "Endereço_Comercial",
