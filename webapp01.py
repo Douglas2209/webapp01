@@ -26,8 +26,8 @@ st.sidebar.write("Texto Side Bar")
     
 if choice == "Catalogo_de_Vendas":       
     st.image(image01, width=800, caption='Rótulo da Imagem 01')
-    st.subheader("Texto formatado em colunas")
-    st.write("Veja a seguir uma opção de formatação em colunas")    
+    st.subheader("ValverdeSubli")
+    st.write("Catalogo de vendas")    
     cols01 = st.columns(2)    
     cols01[0].write('Texto da Coluna 01')
     cols01[1].write('Texto da Coluna 02')
