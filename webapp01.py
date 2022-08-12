@@ -21,6 +21,8 @@ st.sidebar.write("Texto Side Bar")
     
 if choice == "Catalogo_de_Vendas":       
     st.image(image01, width=400, caption='Imagem ilustrativa do produto')
+    Texto01 = '<p style="font-family:tahoma; color:Blue; font-size: 18px;">A seguir, serão apresentados a você os 5 passos principais para você iniciar, rapidamente, a programar em C++. Espero que faça bom uso!</p>'
+    st.markdown(Texto01, unsafe_allow_html=True)
     st.subheader("R$ 29,99 acima de 10 unidades 27,99")
     st.write("Catalogo de vendas")    
     cols01 = st.columns(2)    
