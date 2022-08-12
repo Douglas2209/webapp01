@@ -28,13 +28,7 @@ with col1:
     """    
     )
 with col2:
-    st.info(
-    """
-    ### ***Aprendizado colaborativo***
-    Projetado para fornecer aos usuários um espaço sobre algumas Linguagens de Programação. O objetivo não é substituir o conteúdo institucional disponível para aulas, mas servir de suporte complementar ao aprendizado compartilhado. Espero que você faça bom uso!
-    """
-    )
-
+    st.image(image01, width=400, caption='Imagem ilustrativa do produto')
     
 if choice == "Catalogo_de_Vendas":       
     st.image(image01, width=400, caption='Imagem ilustrativa do produto')
