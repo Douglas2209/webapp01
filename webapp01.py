@@ -29,7 +29,7 @@ with col1:
     )
 with col2:
     st.image(image01, width=400, caption='Imagem ilustrativa do produto')
-    st.title("R$ 29,99 acima de 10 unidades 27,99")
+    st.subtitle("R$ 29,99 acima de 10 unidades 27,99")
     Texto01 = '<p style="font-family:tahoma; color:red; font-size: 25px;">R$ 29,99 acima de 10 unidades 27,99'
         
 if choice == "Catalogo_de_Vendas":      
